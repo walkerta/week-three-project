@@ -1,61 +1,71 @@
 body {
   background: white;
+
 }
 
 #background {
-    width:300px;
-    height:400px;
-    background: #68A168;
-    margin:50px auto;
-    -webkit-animation:bgChange 2s 2s alternate infinite;
-    transition: all 2s ease;
-}
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background: #68A168;
+  margin: 90px auto;
 
 
-#result {
 
-    font-family:  serif;
-    width:180px;
-    height:40px;
-    margin:10px auto;
-    text-align: right;
-    border:0;
-    background: #68A168;
-    padding-top:20px;
-    font-size:20px;
-    margin-left: 25px;
-    outline: none;
-    overflow: auto;
-    letter-spacing: 4px;
-    position:  left;
-    top:10px;
-    bottom: 20px;
+
 }
 
 #result {
 
-    cursor: text;
-    border: 1px solid white;
+  font-family: serif;
+  width: 180px;
+  height: 35px;
+  margin: 10px auto;
+  text-align: left;
+  border: 0px;
+  background: #68A168;
+  padding-top: 50px;
+  font-size: 20px;
+  margin-left: 25px;
+  outline: none;
+  overflow:   auto;
+  position:    relative;
+  top: 10px;
+  bottom: 10px;
+  padding-bottom: 3px;
 
 }
 
+#result {
+  cursor: text;
+  border: 1px solid white;
+  width: 200px;
+  margin-left: 5px;
+
+}
+#C {
+  height: 61px;
+
+}
 
 
 .btn-style {
-
-    width:50px;
-    height:50px;
-    margin-left:5px;
-    border-radius:4px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
 }
 
-
 .num-bg {
-    background: #68A168;
-    color: white;
-    font-size:26px;
-    cursor:pointer;
-    outline: inherit;
-    border: 1px solid white;
+  background: #68A168;
+  color: white;
+  font-size: 26px;
+  outline:   inherit;
+  position: relative;
+  width: 60px;
+  border: 1px solid white;
+  overflow:   auto;
+  position:    relative;
 
 }
